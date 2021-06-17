@@ -21,7 +21,7 @@ const Chat = ({ location }) => {
   const [messages, setMessages] = useState([]);
   const [users, setUsers] = useState([]);
 
-  const END_POINT = "http://localhost:8800/";
+  const END_POINT = "https://chatinger-chat-app.herokuapp.com/";
 
   useEffect(() => {
     const { room, name } = queryString.parse(location.search);
