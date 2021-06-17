@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+.companyName {
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 30px;
+    font-weight: lighter !important;
+    letter-spacing: 3px;
+    color: #3ad435;
+}
